@@ -1,0 +1,13 @@
+current directory: /Users/rcc/Documents/Teaching/BuildingABook/s25bbb/vendor/bundle/ruby/3.1.0/gems/sass-embedded-1.83.0/ext/sass
+/opt/homebrew/opt/ruby/bin/ruby -I/opt/homebrew/lib/ruby/site_ruby/3.1.0 -rrubygems /Users/rcc/Documents/Teaching/BuildingABook/s25bbb/vendor/bundle/ruby/3.1.0/gems/rake-13.2.1/exe/rake RUBYARCHDIR\=/Users/rcc/Documents/Teaching/BuildingABook/s25bbb/vendor/bundle/ruby/3.1.0/extensions/arm64-darwin-21/3.1.0/sass-embedded-1.83.0 RUBYLIBDIR\=/Users/rcc/Documents/Teaching/BuildingABook/s25bbb/vendor/bundle/ruby/3.1.0/extensions/arm64-darwin-21/3.1.0/sass-embedded-1.83.0
+gem install --force --install-dir /Users/rcc/Documents/Teaching/BuildingABook/s25bbb/vendor/bundle/ruby/3.1.0/gems/sass-embedded-1.83.0/ext/sass/ruby --no-document --ignore-dependencies --platform arm64-darwin --version 1.83.0 sass-embedded
+fetch https://github.com/sass/dart-sass/releases/download/1.83.0/dart-sass-1.83.0-macos-arm64.tar.gz
+tar -vxC . -f dart-sass-1.83.0-macos-arm64.tar.gz --no-same-owner --no-same-permissions
+mv /Users/rcc/Documents/Teaching/BuildingABook/s25bbb/vendor/bundle/ruby/3.1.0/gems/sass-embedded-1.83.0/ext/sass/ruby/gems/sass-embedded-1.83.0-arm64-darwin/ext/sass/dart-sass/sass dart-sass/sass
+rm -rf /Users/rcc/Documents/Teaching/BuildingABook/s25bbb/vendor/bundle/ruby/3.1.0/gems/sass-embedded-1.83.0/ext/sass/ruby
+mkdir -p .
+x dart-sass/src/LICENSE
+x dart-sass/src/dart
+x dart-sass/src/sass.snapshot
+x dart-sass/sass
+rm dart-sass-1.83.0-macos-arm64.tar.gz
