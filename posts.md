@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Updates
+title: Skeuomorph News
 description: >
-  Check here for updates, lab instructions, and additional resources for Building a (Better) Book.
+  The latest links & news from Skeuomorph Press.
 grouped: true
 ---
